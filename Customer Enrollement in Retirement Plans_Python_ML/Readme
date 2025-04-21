@@ -1,0 +1,32 @@
+Take 1. in My first submission i got the score of 0.5. Not bad as i didnt did any EDA yet. Also, it got me to rank 1010.
+
+Description:
+1) Used Simple Imputer for all the three categorical values  using 'most_frequest' strategy. this might bring us some bias.
+Health Indicator
+Holding_Policy_Duration
+Holding_Policy_Type
+
+2) Used Random Forest Clossifier with n_estimators=100, and (max_depth=10, oob_score=True, random_state=0)
+
+3) oob_score = 0.7600133642545498
+
+4) reg_score = 0.7608781101371801
+
+
+Take 2. Imputing missing value using knn doesnt make any difference on result.
+3) oob_score = 0.7599937109390354
+
+4) reg_score = 0.7607798435596085
+
+Score of submission = 0.5
+
+Take3: Now i get a little bit better reuslt.
+In this i used simple imputer with Hyperparameter tuned RandomForest. Also, deleted the Upper age limit.
+
+...
+...
+...
+
+...
+Take 9): For pd.crosstab, i found that 'Reco_Policy_Cat' has an unsusual behaviour with response. So it can be a better Feature
+
