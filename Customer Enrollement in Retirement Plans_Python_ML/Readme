@@ -19,14 +19,3 @@ Take 2. Imputing missing value using knn doesnt make any difference on result.
 4) reg_score = 0.7607798435596085
 
 Score of submission = 0.5
-
-Take3: Now i get a little bit better reuslt.
-In this i used simple imputer with Hyperparameter tuned RandomForest. Also, deleted the Upper age limit.
-
-...
-...
-...
-
-...
-Take 9): For pd.crosstab, i found that 'Reco_Policy_Cat' has an unsusual behaviour with response. So it can be a better Feature
-
